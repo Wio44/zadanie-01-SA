@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ff89eb94-be13-4edc-a104-69940bf81b50" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zadanie 01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Zakaznik zadanie.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/klienti.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/DatabazaZakaznikov.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/Filtrovac.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/Platba.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/ZakazniciTester.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/Zakaznik.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DatabazaZakaznikov.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Filtrovac.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Platba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ZakazniciTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Zakaznik.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2Lb4mkHtkojNVka7hD55zW5y7Vr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Filtrovac filter fakturacia.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filtrovac filter hlas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Filtrovac filter mobilny kontakt.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZakazniciTester filter hlas.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/willg/IdeaProjects/Zadanie 01&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\willg\IdeaProjects\Zadanie 01\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Filtrovac filter mobilny kontakt">
+    <configuration name="Filtrovac filter fakturacia" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Filtrovac" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="klienti.csv f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filtrovac filter hlas" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Filtrovac" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="klienti.csv h" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filtrovac filter internet" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Filtrovac" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="klienti.csv i" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Filtrovac filter mobilny kontakt" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Filtrovac" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="klienti.csv m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZakazniciTester filter fakturacia" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="ZakazniciTester" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="f" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZakazniciTester filter hlas" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ZakazniciTester" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="h" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZakazniciTester filter internet" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ZakazniciTester" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="i" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZakazniciTester filter mobilny kontakt" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ZakazniciTester" />
+      <module name="Zadanie 01" />
+      <option name="PROGRAM_PARAMETERS" value="m" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zadanie_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Filtrovac filter fakturacia" />
+      <item itemvalue="Application.Filtrovac filter hlas" />
+      <item itemvalue="Application.Filtrovac filter internet" />
+      <item itemvalue="Application.Filtrovac filter mobilny kontakt" />
+      <item itemvalue="Application.ZakazniciTester filter hlas" />
+      <item itemvalue="Application.ZakazniciTester filter internet" />
+      <item itemvalue="Application.ZakazniciTester filter mobilny kontakt" />
+      <item itemvalue="Application.ZakazniciTester filter fakturacia" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ZakazniciTester filter fakturacia" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-93b19daf" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff89eb94-be13-4edc-a104-69940bf81b50" name="Changes" comment="" />
+      <created>1676126609433</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676126609433</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

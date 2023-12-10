@@ -1,0 +1,107 @@
+
+/**
+ * Trieda reprezentuje zakaznika telekomunikacnych sluzieb s roznymi preferenciami.
+ */
+
+public class Zakaznik {
+
+    private String meno;
+    private String telefonnyKontakt;
+    private boolean aktivnaSluzbaHlas;
+    private boolean aktivnaSluzbaInternet;
+    private Platba platba;
+    private double stavUctu;
+
+    /**
+     * Konstruktor vytvara novych zakaznikov s danymi parametrami.
+     *
+     * @param meno                  Meno a priezvisko zakaznikov
+     * @param telefonnyKontakt      Telefonicky kontakt na zakaznikov
+     * @param aktivnaSluzbaHlas     Zakaznici maju aktivovanu sluzbu hlas
+     * @param aktivnaSluzbaInternet Zakaznici s aktivnou sluzbou internet
+     * @param platba                typ platby
+     * @param stavUctu              Vyjadruje stav uctu zakaznika
+     */
+
+    public Zakaznik(String meno, String telefonnyKontakt, boolean aktivnaSluzbaHlas, boolean aktivnaSluzbaInternet, Platba platba, double stavUctu) {
+        this.meno = meno;
+        this.telefonnyKontakt = telefonnyKontakt;
+        this.aktivnaSluzbaHlas = aktivnaSluzbaHlas;
+        this.aktivnaSluzbaInternet = aktivnaSluzbaInternet;
+        this.platba = platba;
+        this.stavUctu = stavUctu;
+    }
+
+    /**
+     * Metoda vracia textovy retazec, ktory sa sklada z mena a priezviska zakaznika.
+     *
+     * @return meno
+     */
+
+    public String getMeno() {
+        return meno;
+    }
+
+    /**
+     * Metoda vracia telefonny kontakt na zakaznika v textovom retazci.
+     *
+     * @return telefonny kontakt na zakaznika
+     */
+
+    public String getTelefonnyKontakt() {
+        return telefonnyKontakt;
+    }
+
+    /**
+     * Metoda zistuje, ci ma zakaznik aktivovanu sluzbu hlasovu sluzbu.
+     *
+     * @return vracia booleovsku hodnotu(true, false)
+     */
+
+    public boolean jeAktivnaSluzbaHlas() {
+        return aktivnaSluzbaHlas == true;
+    }
+
+    /**
+     * Metoda zistuje, ci ma zakaznik aktivovanu sluzbu internet.
+     *
+     * @return vracia booleovsku hodnotu(true, false)
+     */
+
+    public boolean jeAktivnaSluzbaInternet() {
+
+        return aktivnaSluzbaInternet;
+    }
+
+    /**
+     * Metoda zistuje typ sluzby a k nej prisluchajuci sposob platby
+     *
+     * @return vracia typ platby
+     */
+
+    public Platba getPlatba() {
+        return platba;
+    }
+
+    /**
+     * Metoda zistuje stav uctu zakaznika.
+     *
+     * @return stav uctu
+     */
+
+    public double getStavUctu() {
+        return stavUctu;
+    }
+
+    /**
+     * Metoda vyjadruje retazcovu reprezentaciu a formatuje retazec na vystupe.
+     *
+     * @return naformatovany retazec
+     */
+
+    @Override
+    public String toString() {
+        String naformatovanyZakaznik = String.format("%-28s%-20s%10.2f", meno, telefonnyKontakt, stavUctu);
+        return naformatovanyZakaznik;
+    }
+}
