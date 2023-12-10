@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ff89eb94-be13-4edc-a104-69940bf81b50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zadanie 01.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Zakaznik zadanie.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/klienti.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/DatabazaZakaznikov.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/Filtrovac.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/Platba.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/ZakazniciTester.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/Zadanie 01/Zakaznik.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DatabazaZakaznikov.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Filtrovac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Platba.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ZakazniciTester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Zakaznik.java" afterDir="false" />
-    </list>
+    <list default="true" id="ff89eb94-be13-4edc-a104-69940bf81b50" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
